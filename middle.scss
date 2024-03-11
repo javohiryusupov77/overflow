@@ -1,0 +1,138 @@
+   @import url(./footer.css);
+   main {
+    border: none;
+    width: 100%;
+    // height: 210vh;
+    .content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width:100%;
+        height: 60px;
+        // padding-left: 50px;
+       
+        @media screen and (width < 920px){
+            ul{
+                display: none;
+            }
+            // .content{
+            //     width: 100%;
+            // }
+        }
+        .content1 {
+            width: 103px;
+            div{
+                display: flex;
+                width: 150px;
+                gap: 5px;
+            }
+            span {
+                display: none;
+            }
+            @media screen and (width < 920px){
+                span{
+                    display: flex;
+                }
+            }
+        }
+    }
+    .logo {
+        width: 70px;
+        height: 24px;
+    }
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 30%;
+        height: 24px;
+
+        li {
+            list-style: none;
+            text-transform: capitalize;
+            cursor: pointer;
+        }
+    }
+    .icons {
+        display: flex;
+        width: 200px;
+        height: 28px;
+        gap: 14px;
+        @media screen and (width < 920px){
+            .iconspart1 {
+                gap: 10px;
+                display: none;
+            }
+            .iconspart2{
+                transform: translateX(110px);
+            }
+        }
+    }
+    .basicimage {
+        //  max-width:1200px;
+        // padding-left: 120px;
+        img {
+           display: block;
+           width: 100%;
+           height: 100%;
+           object-fit: cover;
+        //    padding-left: 50px;
+        }
+    }
+    .title {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        height: 152px;
+        // padding-left: 50px;
+        margin-top: 2rem;
+        h1 {
+            width: 500px;
+            font-size:60px;
+        }
+        p{
+            width: 500px;
+        }
+        @media screen and (width < 700px){
+            h1{
+                font-size: 75px;
+                width: 100%;
+            }
+            p{
+                font-size: 14px;
+                width: 100%;
+               
+            }
+        }
+    }
+  .father{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin-block:10%;
+    gap: 10px;
+    @media screen and (width < 900px){
+        flex-wrap: wrap;
+        margin-bottom: 200px;
+        .part{
+            margin-bottom: 55%;
+        }
+        img{
+            width: 100%;
+           
+        }
+    }
+    @media screen and (width < 600px){
+        margin-top: 400px;
+    }
+    .name{
+        width: 100%;
+        height: 100%;
+    }
+    div{
+        height: 48%;
+        height:312px;
+    }
+  }
+}

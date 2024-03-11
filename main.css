@@ -1,0 +1,32 @@
+@import url(./middle.css);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  max-width: 1200px;
+  padding: 20px;
+  margin: auto;
+}
+
+#dialog {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+}
+
+#dialog::backdrop {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.hamburger-menu {
+  display: none;
+}
+@media screen and (width < 920px) {
+  .hamburger-menu {
+    display: flex;
+  }
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,96 @@
+// .father{
+//     display: flex;
+//     flex-direction:column;
+// .furniture {
+//     width: 1200px;
+//     height: 670px;
+//     display: grid;
+//     grid-template-columns: auto auto;
+//     grid-template-rows: auto auto;
+//     margin-block: 5%;
+//     div {
+//         object-fit: cover;
+//     }
+//     .name {
+//         grid-row: span 2;
+//         object-fit: cover;
+//     }
+// }
+
+
+
+// }
+
+
+  .arrivals {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width: 100%;
+    height: 8%;
+    margin-bottom: 20px;
+    @media screen and (width < 1140px){
+        flex-wrap: wrap;
+        h2{
+            font-size: 30px;
+            transform: translateY(-20px);
+            line-height: 40px;
+        }
+    }
+    h2 {
+        font-size: 40px;
+        width: 60%;
+        height: 88px;
+    }
+    div {
+        border: solid;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    div {
+        align-self: flex-end;
+    }
+    div:active {
+        transform: translate(-1px, -1px);
+    }
+}
+.footerpart{
+    width: 1200px;
+    display: flex;
+    gap: 10px;
+    @media screen and (width < 920px){
+        img{
+            width: 450px;
+            flex-wrap: wrap;
+        }
+    }
+    img{
+        width: 500px;
+        height: 433px;
+    }
+}
+.definition{
+    width: 120%;
+    display: flex;
+    gap: 200px;
+    @media screen and (width < 920px){
+        display: none;
+        width: 120%;
+
+    }
+}
+.mainpart{
+    width: 100%;
+    overflow-x: scroll;
+    @media screen and (width < 920px){
+        width: 100%;
+
+    }
+}
+
+

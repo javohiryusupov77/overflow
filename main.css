@@ -16,6 +16,16 @@ body {
   width: 500px;
   height: 500px;
   margin: auto;
+  position: relative;
+}
+#dialog a {
+  text-decoration: none;
+  padding: 50px;
+  line-height: 50px;
+}
+#dialog button {
+  position: absolute;
+  left: 92%;
 }
 
 #dialog::backdrop {
@@ -28,5 +38,7 @@ body {
 @media screen and (width < 920px) {
   .hamburger-menu {
     display: flex;
+    border: none;
+    background-color: #fff;
   }
 }/*# sourceMappingURL=main.css.map */

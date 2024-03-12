@@ -14,7 +14,16 @@ body{
     width: 500px;
     height: 500px;
     margin: auto;
-   
+    position: relative;
+    a{
+        text-decoration: none;
+        padding: 50px;
+        line-height: 50px;
+    }
+    button{
+        position: absolute;
+        left: 92%;
+    }
 }
  #dialog::backdrop {
     background: rgba(0, 0, 0, 0.7);
@@ -23,6 +32,9 @@ body{
     display: none;
     @media screen and (width < 920px){
         display: flex;
+        border: none;
+        background-color:#fff;
+
     }
 }
 

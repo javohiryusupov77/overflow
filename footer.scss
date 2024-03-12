@@ -16,12 +16,7 @@
 //         object-fit: cover;
 //     }
 // }
-
-
-
 // }
-
-
   .arrivals {
     display: flex;
     justify-content: space-between;
@@ -89,8 +84,24 @@
     overflow-x: scroll;
     @media screen and (width < 920px){
         width: 100%;
-
     }
+}
+.support{
+    display: flex;
+    width: 100%;
+    gap: 40px;
+    padding-top: 5%;
+    img{
+        width: 25%;
+    }
+    @media screen and (width < 1050px){
+        width: 100%;
+        flex-wrap: wrap;
+        img{
+            width: 42%;
+        }
+    }
+    
 }
 
 

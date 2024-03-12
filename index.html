@@ -22,9 +22,9 @@
                 <div>
                     <button class="hamburger-menu" id="menuBtn">
                         <span class="material-symbols-outlined">
-                          menu
+                            menu
                         </span>
-                      </button>
+                    </button>
                     <img class="logo" src="./images/Logo.png" alt="logo">
                 </div>
             </div>
@@ -120,29 +120,41 @@
                 </div>
             </div>
         </div>
+        <div class="support">
+            <img src="./images/card 01.png" alt="payment">
+            <img src="./images/card 2.png" alt="security">
+            <img src="./images/card 4.png" alt="support">
+            <img src="./images/card 3.png" alt="money">
+        </div>
     </main>
     <dialog id="dialog">
         <a href="#">
-          <img src="./images/logo.png" alt="logo">
+            <img src="./images/logo.png" alt="logo">
+            <button>
+                <span class="material-symbols-outlined" id="closeBtn">close</span>
+            </button>
         </a>
         <nav>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="project">Shop</a></li>
-            <li><a href="services">Products</a></li>
-            <li><a href="about">Contact Us</a></li>
-          </ul>
+            <span class="material-symbols-outlined">
+                search
+            </span>
+            <input type="text" placeholder="search">
+            <ul>
+                <li><a href="hme">Home</a></li>
+                <li><a href="project">Shop</a></li>
+                <li><a href="services">Products</a></li>
+                <li><a href="about">Contact Us</a></li>
+            </ul>
         </nav>
-        <button>
-          <span class="material-symbols-outlined" id="closeBtn">close</span>
-        </button>
-      </dialog>
-      <script>
+
+    </dialog>
+    <script>
         const menuBtn = document.getElementById('menuBtn')
         const dialog = document.getElementById("dialog");
         const closeBtn = document.getElementById("closeBtn");
         menuBtn.onclick = () => dialog.showModal();
         closeBtn.onclick = () => dialog.close()
-      </script>
+    </script>
 </body>
+
 </html>

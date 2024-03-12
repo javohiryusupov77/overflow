@@ -101,7 +101,7 @@ main .father {
   margin-block: 10%;
   gap: 10px;
 }
-@media screen and (width < 900px) {
+@media screen and (width < 1050px) {
   main .father {
     flex-wrap: wrap;
     margin-bottom: 200px;
@@ -125,4 +125,10 @@ main .father .name {
 main .father div {
   height: 48%;
   height: 312px;
+}
+
+input {
+  padding-inline: 50px;
+  padding-block: 10px;
+  border-radius: 8px;
 }/*# sourceMappingURL=middle.css.map */

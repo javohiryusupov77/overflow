@@ -74,4 +74,23 @@
   .mainpart {
     width: 100%;
   }
+}
+
+.support {
+  display: flex;
+  width: 100%;
+  gap: 40px;
+  padding-top: 5%;
+}
+.support img {
+  width: 25%;
+}
+@media screen and (width < 1050px) {
+  .support {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .support img {
+    width: 42%;
+  }
 }/*# sourceMappingURL=footer.css.map */
